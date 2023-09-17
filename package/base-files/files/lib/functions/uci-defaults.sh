@@ -83,7 +83,7 @@ ucidef_set_interface_lan() {
 }
 
 ucidef_set_interface_wan() {
-	ucidef_set_interface "wan" ifname "$1" protocol "${2:-dhcp}"
+	ucidef_set_interface "wan" ifname "$1" protocol "${2:-pppoe}"
 }
 
 ucidef_set_interfaces_lan_wan() {
