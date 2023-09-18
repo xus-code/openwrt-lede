@@ -4,8 +4,8 @@ src-git routing https://github.com/coolsnowwolf/routing
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
 src-git passwall https://github.com/xiaorouji/openwrt-passwall.git;main
-src-git adguardhome https://github.com/kongfl888/luci-app-adguardhome
-src-git netdata https://github.com/Jason6111/luci-app-netdata
+#src-git adguardhome https://github.com/kongfl888/luci-app-adguardhome
+#src-git netdata https://github.com/Jason6111/luci-app-netdata
 
 # 注释
 #src-git helloworld https://github.com/fw876/helloworld.git
