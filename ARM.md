@@ -1,3 +1,4 @@
+# 环境依赖安装
 sudo apt install gcc-multilib-i686-linux-gnu gcc-multilib-s390x-linux-gnu gcc-multilib-x86-64-linux-gnu gcc-multilib-x86-64-linux-gnux32
 
 sudo apt install g++-multilib-i686-linux-gnu g++-multilib-s390x-linux-gnu g++-multilib-x86-64-linux-gnu g++-multilib-x86-64-linux-gnux32
@@ -11,3 +12,6 @@ libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-d
 mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pyelftools \
 libpython3-dev qemu-utils rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip \
 vim wget xmlto xxd zlib1g-dev python3-setuptools
+
+# root 用户编译
+export FORCE_UNSAFE_CONFIGURE=1
