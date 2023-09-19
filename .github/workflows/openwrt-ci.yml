@@ -10,7 +10,7 @@ name: OpenWrt-CI
 on:
   push:
     branches:
-      - master
+      - release
 
 permissions:
   contents: read
