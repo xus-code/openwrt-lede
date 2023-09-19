@@ -8,9 +8,7 @@
 name: OpenWrt-CI
 
 on:
-  push:
-    branches:
-      - release
+  workflow_dispatch:
 
 permissions:
   contents: read
